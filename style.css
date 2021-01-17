@@ -92,3 +92,9 @@ button:focus{
         z-index: -1;
     }
 }
+button:hover{
+    background: rgba(255, 255, 255, 0.09);
+}
+.different:hover{
+    background: #16c79a;
+}
