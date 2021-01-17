@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator v2 || Karan Bhangu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" id="query" readonly>
+    <div class="btns">
+        <button onclick="document.getElementById('query').value=''" id="clear">C</button>
+        <button onclick="document.getElementById('query').value+='/'">/</button>
+        <button onclick="document.getElementById('query').value+='*'">X</button>
+    </div>
+    <div class="btns">
+        <button onclick="document.getElementById('query').value+='7'">7</button>
+        <button onclick="document.getElementById('query').value+='8'">8</button>
+        <button onclick="document.getElementById('query').value+='9'">9</button>
+        <button onclick="document.getElementById('query').value+='-'">-</button>
+    </div>
+    <div class="btns">
+        <button onclick="document.getElementById('query').value+='4'">4</button>
+        <button onclick="document.getElementById('query').value+='5'">5</button>
+        <button onclick="document.getElementById('query').value+='6'">6</button>
+        <button onclick="document.getElementById('query').value+='+'">+</button>
+    </div>
+    <div class="btns">
+        <button onclick="document.getElementById('query').value+='1'">1</button>
+        <button onclick="document.getElementById('query').value+='2'">2</button>
+        <button onclick="document.getElementById('query').value+='3'">3</button>
+        <button onclick="document.getElementById('query').value+='%'">%</button>
+    </div>
+    <div class="btns">
+        <button onclick="document.getElementById('query').value+='00'">00</button>
+        <button onclick="document.getElementById('query').value+='0'">0</button>
+        <button onclick="document.getElementById('query').value+='.'">.</button>
+        <button onclick="evale()">=</button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
